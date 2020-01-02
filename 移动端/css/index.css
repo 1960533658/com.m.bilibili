@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* 媒体查询 */
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+
+@media screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* 顶部导航 开始 */
+.topnav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  height: 1.32267rem;
+  padding: 0.48309rem;
+}
+
+.topnav .left a {
+  display: block;
+  margin-left: .768rem;
+  width: 4.64533rem;
+}
+
+.topnav .left a svg {
+  width: 100%;
+}
+
+.topnav .center {
+  width: 100%;
+  left: 0;
+  top: 0.72464rem;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.topnav .center input {
+  width: 7.00483rem;
+  height: 1.30435rem;
+  padding-left: 1.35266rem;
+  border-radius: 1.30435rem;
+  border: 0;
+  margin-left: auto;
+  margin-right: .64rem;
+  font-size: 0.77295rem;
+  background-color: #f4f4f4;
+  line-height: 1.30435rem;
+  color: #999;
+  /* 单行出现省略号 */
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topnav .right {
+  width: 4.34783rem;
+  height: 1.35266rem;
+  margin-right: 0.96618rem;
+  background: #fb7299;
+  color: #fff;
+  font-size: 0.77295rem;
+  text-align: center;
+  line-height: 1.35266rem;
+  border-radius: 0.24155rem;
+}
+
+/* 顶部导航 结束 */
+/* 视频 开始 */
+.webindex {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 0 0.62802rem;
+}
+
+.webindex ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.webindex ul li {
+  width: 9.03382rem;
+  height: 8.50242rem;
+}
+
+.webindex ul li a {
+  display: block;
+  width: 9.03382rem;
+}
+
+.webindex ul li a .img {
+  position: relative;
+}
+
+.webindex ul li a .img img {
+  width: 100%;
+  height: 5.55556rem;
+}
+
+.webindex ul li a .img .show {
+  position: absolute;
+  width: 100%;
+  left: 0.48309rem;
+  bottom: 0.19324rem;
+  font-size: 0.57971rem;
+  color: #fff;
+}
+
+.webindex ul li a .img .show .show-left, .webindex ul li a .img .show .show-right {
+  width: 50%;
+}
+
+.webindex ul li a .img .show svg {
+  vertical-align: bottom;
+  fill: #fff;
+}
+
+.webindex ul li a p {
+  font-size: 0.72464rem;
+  padding-top: 0.43478rem;
+}
+
+/* 视频 开始 */
+/*# sourceMappingURL=index.css.map */
