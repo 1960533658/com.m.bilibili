@@ -84,12 +84,65 @@
 }
 /* 顶部导航 结束 */
 
+.contNav {
+    position: fixed;
+    z-index: 100;
+    top: 3rem;
+    width: 100%;
+    height: (32rem / 20.7 + 0.256);
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: (5rem / 20.7);
+
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: (5rem / 20.7);
+
+        li {
+            width: 20%;
+            text-align: center;
+            padding: 0.256rem;
+
+            a {
+                display: inline-block;
+                font-size: (16rem / 20.7);
+            padding: (10rem / 20.7) (2rem / 20.7);
+                border-bottom: 1px solid transparent;
+            }
+            
+        }
+        .pink {
+            color: #fb7299;
+            border-bottom: 1px solid #fb7299;
+        }
+    }
+
+    div {
+        position: absolute;
+        width: (15rem  / 20.7);
+        height: (15rem  / 20.7);
+        text-align: center;
+        line-height: (15rem / 20.7);
+        left: 50%;
+        top: 0;
+        transform: translate(-50%,0);
+        transform: rotateZ(90deg);
+
+        span {
+            transform: perspective(1000px);
+            font-size: (14rem / 20.7);
+        }
+    }
+}
 
 /* 视频 开始 */
 .webindex {
-    margin-top: 3rem;
     width: 100%;
-    padding: 0 (13rem / 20.7);
+    padding: 0 (16rem / 20.7);
+    margin-top: 5rem;
     
     ul {
         width: 100%;
@@ -135,6 +188,12 @@
                 p {
                     font-size: (15rem / 20.7);
                     padding-top: (9rem / 20.7);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    word-break: break-all;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
                 }
 
             }
@@ -142,3 +201,7 @@
     }
 }
 /* 视频 开始 */
+
+.hidden {
+    display: none;
+}

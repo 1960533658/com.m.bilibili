@@ -84,11 +84,72 @@
 }
 
 /* 顶部导航 结束 */
+.contNav {
+  position: fixed;
+  z-index: 100;
+  top: 3rem;
+  width: 100%;
+  height: 1.80189rem;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 0.24155rem;
+}
+
+.contNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 0.24155rem;
+}
+
+.contNav ul li {
+  width: 20%;
+  text-align: center;
+  padding: 0.256rem;
+}
+
+.contNav ul li a {
+  display: inline-block;
+  font-size: 0.77295rem;
+  padding: 0.48309rem 0.09662rem;
+  border-bottom: 1px solid transparent;
+}
+
+.contNav ul .pink {
+  color: #fb7299;
+  border-bottom: 1px solid #fb7299;
+}
+
+.contNav div {
+  position: absolute;
+  width: 0.72464rem;
+  height: 0.72464rem;
+  text-align: center;
+  line-height: 0.72464rem;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+}
+
+.contNav div span {
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+  font-size: 0.67633rem;
+}
+
 /* 视频 开始 */
 .webindex {
-  margin-top: 3rem;
   width: 100%;
-  padding: 0 0.62802rem;
+  padding: 0 0.77295rem;
+  margin-top: 5rem;
 }
 
 .webindex ul {
@@ -143,7 +204,16 @@
 .webindex ul li a p {
   font-size: 0.72464rem;
   padding-top: 0.43478rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
 }
 
 /* 视频 开始 */
+.hidden {
+  display: none;
+}
 /*# sourceMappingURL=index.css.map */
