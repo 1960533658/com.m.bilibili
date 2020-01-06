@@ -185,14 +185,23 @@ divspan.onclick = function () {
 }
 var webindexs = document.querySelectorAll('.webindex')
 var contnavlias = document.querySelectorAll('.contNav li a')
-for (var n = 0; n < webindexs.length; n++) {
+for (var n = 0; n < contnavlias.length; n++) {
     contnavlias[n].index = n
-    contnavlias[n].click = function () {
-        for (var i = 0; i < webindexs.length; i++) {
+    contnavlias[n].onclick = function () {
+        for (var i = 0; i < contnavlias.length; i++) {
             contnavlias[i].className = ""
         }
         this.className = 'pink'
-        console.log(123)
     }
 }
-console.log(contnavlias)
+var generalize = document.querySelector('.generalize')
+var removebottom = document.querySelector(".generalize .left img:first-child");
+removebottom.onclick = function () {
+    generalize.style.display = "none"
+}
+// input点击事件
+var input = document.querySelector(".topnav .center input[type=text]")
+input.onclick = function () {
+    location.href = "./search.html"
+    console.log(123, this)
+}

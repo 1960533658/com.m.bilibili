@@ -200,7 +200,62 @@
         }
     }
 }
-/* 视频 开始 */
+/* 视频 结束 */
+
+.generalize {
+    position:fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: (66rem / 20.7);
+    padding: 0 (14rem / 20.7);
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.7);
+
+    .left {
+    display: flex;
+    align-items: center;
+        img:first-child {
+            width:  (14rem  /20.7);   
+            }
+        }
+
+        img:nth-child(2) {
+            margin: 0 (7rem  /20.7) 0 (18rem / 20.7);
+        }
+    img {
+        width: (35rem  /20.7);
+        }
+        .middle {
+            // display: flex;
+            // height: (35rem  / 20.7);
+            // align-items: space-between;
+
+            p:first-child {
+                font-size: (15rem / 20.7);
+                color: #fff;
+            }
+            p:nth-child(2) {
+                font-size: (14rem  / 20.7);
+                color: #999;
+            }
+    }
+    .right {
+        width: (80rem / 20.7);
+        height: (33rem / 20.7);
+        border-radius: (5rem / 20.7);
+        background-color: #fb7299;
+        text-align: center;
+
+        a {
+            font-size: (15rem / 20.7);
+            line-height: (33rem / 20.7);
+            color: #fff;
+    }
+    }
+}
 
 .hidden {
     display: none;

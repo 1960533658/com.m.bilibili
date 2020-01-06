@@ -1,0 +1,90 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.search {
+  position: relative;
+  padding: 0.38647343rem 0.72463768rem 0;
+}
+.search .input {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  padding-right: 2.85024155rem;
+}
+.search .input input {
+  width: 100%;
+  height: 1.49758454rem;
+  line-height: 1.49758454rem;
+  padding-left: 2.12560386rem;
+  font-size: 0.6763285rem;
+  color: #999;
+  background-color: #f4f4f4;
+  border: 0.04830918rem solid #e7e7e7;
+  border-radius: 0.24154589rem;
+}
+.search .input span {
+  position: absolute;
+  top: 50%;
+  left: 0.72463768rem;
+  transform: translate(0, -50%);
+  font-size: 0.96618357rem;
+}
+.search em {
+  line-height: 1.49758454rem;
+  color: #fb72b3;
+  font-size: 0.72463768rem;
+}
+.all {
+  margin-top: 1.25603865rem;
+  padding: 0 0.72463768rem;
+}
+.all h6 {
+  font-size: 0.72463768rem;
+  font-weight: 400;
+  color: #999999;
+}
+.all span {
+  display: inline-block;
+  padding: 0 0.6763285rem;
+  border: 0.04830918rem solid #ccc;
+  border-radius: 1.69082126rem;
+  font-size: 0.6763285rem;
+  color: #505050;
+  line-height: 1.69082126rem;
+  margin-right: 0.24154589rem;
+}
+.all span:nth-child(-n+3) {
+  margin-bottom: 0.62801932rem;
+}
+.all span:last-child {
+  margin-right: 0;
+}
+.color {
+  height: 0.53140097rem;
+  margin-top: 1.40096618rem;
+  margin-bottom: 0.9178744rem;
+  background-color: #f4f4f4;
+}
+.history {
+  padding: 0 0.72463768rem;
+}
+.history h6 {
+  font-size: 0.72463768rem;
+  font-weight: 400;
+  color: #999999;
+}

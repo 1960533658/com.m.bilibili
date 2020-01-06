@@ -212,7 +212,72 @@
   display: -webkit-box;
 }
 
-/* 视频 开始 */
+/* 视频 结束 */
+.generalize {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 3.18841rem;
+  padding: 0 0.67633rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.generalize .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.generalize .left img:first-child {
+  width: 0.67633rem;
+}
+
+.generalize img:nth-child(2) {
+  margin: 0 0.33816rem 0 0.86957rem;
+}
+
+.generalize img {
+  width: 1.69082rem;
+}
+
+.generalize .middle p:first-child {
+  font-size: 0.72464rem;
+  color: #fff;
+}
+
+.generalize .middle p:nth-child(2) {
+  font-size: 0.67633rem;
+  color: #999;
+}
+
+.generalize .right {
+  width: 3.86473rem;
+  height: 1.5942rem;
+  border-radius: 0.24155rem;
+  background-color: #fb7299;
+  text-align: center;
+}
+
+.generalize .right a {
+  font-size: 0.72464rem;
+  line-height: 1.5942rem;
+  color: #fff;
+}
+
 .hidden {
   display: none;
 }

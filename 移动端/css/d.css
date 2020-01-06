@@ -1,0 +1,53 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.bottomdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-image: url(../images/d-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomdown img[src="../images/d-right-top.png"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4.83091787rem;
+}
+.bottomdown .center {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.bottomdown .center img:first-child {
+  width: 10.72463768rem;
+  margin-bottom: 1.64251208rem;
+}
+.bottomdown .center img:last-child {
+  width: 14.39613527rem;
+}
+.bottomdown img[src="../images/d-left-bottom.png"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10.62801932rem;
+}
