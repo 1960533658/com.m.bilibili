@@ -145,11 +145,20 @@
   font-size: 0.67633rem;
 }
 
+.my {
+  margin-top: 5rem;
+  padding: 0 0.77295rem 0.57971rem;
+}
+
+.my img {
+  width: 100%;
+  border-radius: 0.48309rem;
+}
+
 /* 视频 开始 */
 .webindex {
   width: 100%;
   padding: 0 0.77295rem;
-  margin-top: 5rem;
 }
 
 .webindex ul {

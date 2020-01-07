@@ -137,12 +137,19 @@
         }
     }
 }
+.my {
+    margin-top: 5rem;
+    padding: 0 (16rem / 20.7) (12rem / 20.7);
 
+    img {
+        width: 100%;
+        border-radius: (10rem / 20.7);
+    }
+}
 /* 视频 开始 */
 .webindex {
     width: 100%;
     padding: 0 (16rem / 20.7);
-    margin-top: 5rem;
     
     ul {
         width: 100%;

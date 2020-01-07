@@ -31,7 +31,20 @@ for (let i = 3; i <= 100; i++) {
 
     // console.log(divImg)
 }
-
+// 添加点击视频事件
+var webLi = document.querySelectorAll(".webindex ul li")
+for (var i = 0; i < webLi.length; i++) {
+    webLi[i].onclick = function () {
+        location.href = './tv.html'
+    }
+}
+// webUl.onclick = function (e) {
+//     var imgElement = e.target;
+//     if (imgElement.nodeName == "li") {
+//         location.href = './tv.html'
+//         console.log(123)
+//     }
+// }
 
 var showText = document.querySelectorAll('.show')
 // console.log(showText.length)

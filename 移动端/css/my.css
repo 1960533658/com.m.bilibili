@@ -1,0 +1,101 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: 15.4589372px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.11594203px;
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: 20px;
+  }
+}
+.w100 {
+  width: 100%;
+}
+.head {
+  position: relative;
+}
+.head img:first-child {
+  width: 100%;
+}
+.head img:last-child {
+  position: absolute;
+  left: 50%;
+  bottom: 1.20772947rem;
+  transform: translate(-50%, 0);
+  width: 9.13043478rem;
+}
+.some img {
+  width: 100%;
+}
+.flag img {
+  width: 100%;
+}
+.we img {
+  width: 100%;
+}
+.share {
+  width: 100%;
+  margin: 0.48309179rem 0 1.93236715rem;
+  text-align: center;
+}
+.share img {
+  width: 40%;
+}
+.talk {
+  padding: 0 0.86956522rem;
+}
+.talk .nav {
+  width: 100%;
+  font-size: 0.6763285rem;
+}
+.talk .nav li {
+  margin-right: 1.54589372rem;
+}
+.talk .nav li a {
+  display: inline-block;
+  color: #222;
+  padding: 0.57971014rem 0;
+}
+.talk .nav li:first-child a {
+  color: #00a1d6;
+  border-bottom: 1px solid #00a1d6;
+}
+.join {
+  padding: 1.15942029rem 0.86956522rem 0;
+}
+.join .left {
+  width: 14.49275362rem;
+  height: 3.14009662rem;
+  line-height: 3.14009662rem;
+  background-color: #e5e9ef;
+  font-size: 0.6763285rem;
+  color: #777;
+  text-align: center;
+}
+.join .left span {
+  display: inline-block;
+  width: 2.02898551rem;
+  height: 0.96618357rem;
+  line-height: 0.96618357rem;
+  text-align: center;
+  color: #fff;
+  background-color: #00a1d6;
+  border-bottom-left-radius: 0.14492754rem;
+  border-bottom-right-radius: 0.14492754rem;
+}
+.join .right {
+  width: 3.38164251rem;
+  height: 3.09178744rem;
+  margin-bottom: 1.44927536rem;
+  background-color: #e5e9ef;
+  border-radius: 0.24154589rem;
+  white-space: pre-line;
+  text-align: center;
+  font-size: 14px;
+  color: #b8c0cc;
+}
